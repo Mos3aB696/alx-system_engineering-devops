@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1Apv | sed -e 's/\/$/\//' | tr '\n' ',' | sed -e 's/,$/\n/'
+ls -a -m -v -p
