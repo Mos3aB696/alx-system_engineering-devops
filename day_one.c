@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void)
 {
-	printf("Hello My Team, I'm Proud Of Yours");
+	printf("My Name is: %c%c, And My age is: %d",'M', 'E', 22);
 	return (0);
 }
