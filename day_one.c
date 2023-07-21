@@ -1,6 +1,6 @@
 #include <stdio.h>
-int main(void)
+int main()
 {
-	printf("My Name is: %c%c, And My age is: %d",'M', 'E', 22);
-	return (0);
+  printf("My Name is: %c%c, And My age is: %d\n", 'M', 'E', 22);
+  return 0;
 }
