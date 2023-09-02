@@ -1,3 +1,0 @@
-git add --chmod=+x *
-git commit -m 'done'
-git push
