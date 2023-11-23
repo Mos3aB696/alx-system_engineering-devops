@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script is displaying the time for 12 hours and 59 minutes:
+for file in *-*; do
+	if [[ -f $file ]]; then 
+		echo "${file#*-}"
+	fi
+done
