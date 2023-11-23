@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# This script is displaying the time for 12 hours and 59 minutes:
+# This script is displaying
 for file in *-*; do
 	if [[ -f $file ]]; then
-		echo "${file#*-}"
+		filename=${file#*-}
+		echo "${filename%.*}"
 	fi
 done
