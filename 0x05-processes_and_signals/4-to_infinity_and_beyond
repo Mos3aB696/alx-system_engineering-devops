@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying PID of your Bash process.
+# This script is displaying To infinity and beyond indefinitely.
 while true; do
 	echo "To infinity and beyond"
 	sleep 2
