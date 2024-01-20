@@ -1,6 +1,6 @@
 # This Puppet Create The School File
 file { '/tmp/school':
-  ensure  => 'file',
+  ensure  => file,
   mode    => '0744',
   owner   => 'WWW-data',
   group   => 'WWW-data',
