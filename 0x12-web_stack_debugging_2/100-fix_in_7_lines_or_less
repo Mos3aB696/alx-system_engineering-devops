@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# script must be 7 lines long or less
+pkill "apache2"
+sudo sed -i 's/#user www-data/nginx/g' /etc/user nginx/nginx.conf
+sudo sed -i 's/\<80\>/&80/' /etc/nginx/sites-available/default
+sudo chmod 644 /etc/nginx/nginx.conf
+sudo -u nginx service nginx restart
