@@ -4,11 +4,14 @@ Python script that, using this REST API, for a given employee ID,
 returns information about his/her TODO list progress.
 """
 
-
 import requests
 from sys import argv
 
 if __name__ == "__main__":
+    if len(argv) != 2:
+        print("Usage: python3  0-gather_data_from_an_API.py EMPLOYEE_ID")
+        exit(1)
+
     employee_id = argv[1]
 
     # Make a GET request to retrieve employee information
